@@ -1,4 +1,4 @@
-# StewardShip Analytics - Landing Page
+# GiveWise Insights - Landing Page
 
 Professional landing page for predictive donor analytics consulting services targeting nonprofits, churches, and community organizations.
 
@@ -13,7 +13,7 @@ Professional landing page for predictive donor analytics consulting services tar
 1. **Create a new repository on GitHub:**
    - Go to [github.com/new](https://github.com/new)
    - Repository name: `yourusername.github.io` (replace `yourusername` with your actual GitHub username)
-   - Description: "StewardShip Analytics - Predictive donor analytics for nonprofits"
+   - Description: "GiveWise Insights - Predictive donor analytics for nonprofits"
    - Make it **Public**
    - ✅ Check "Add a README file"
    - Click **Create repository**
@@ -26,7 +26,7 @@ Professional landing page for predictive donor analytics consulting services tar
      - `script.js`
      - `robots.txt`
      - `sitemap.xml`
-   - Commit message: "Initial commit - StewardShip Analytics site"
+   - Commit message: "Initial commit - GiveWise Insights site"
    - Click **Commit changes**
 
 3. **Add images folder:**
@@ -61,7 +61,7 @@ cp /path/to/images/* images/
 
 # Commit and push
 git add .
-git commit -m "Initial commit - StewardShip Analytics site"
+git commit -m "Initial commit - GiveWise Insights site"
 git push origin main
 ```
 
@@ -98,10 +98,10 @@ See `images/README.md` for detailed image specifications.
 ### 2. Update Text Content
 
 #### **Change Brand Name** (if using different name)
-If you prefer "MissionROI Analytics" or another option instead of "StewardShip Analytics":
+If you prefer a different name instead of "GiveWise Insights":
 
 1. **Search & Replace** in `index.html`:
-   - Find: `StewardShip Analytics`
+   - Find: `GiveWise Insights`
    - Replace with: `Your Chosen Name`
 
 2. Update these specific places:
@@ -178,10 +178,10 @@ Replace `G-XXXXXXXXXX` with your tracking ID.
 ### Custom Domain Setup (Optional)
 
 1. **Purchase a domain** (e.g., from Namecheap, Google Domains)
-   - Recommended: `stewardshipanalytics.com` or similar
+   - Recommended: `givewiseinsights.com` or similar
 
 2. **Create CNAME file** in your repository:
-   - Content: Just your domain name (e.g., `stewardshipanalytics.com`)
+   - Content: Just your domain name (e.g., `givewiseinsights.com`)
 
 3. **Configure DNS** with your domain registrar:
    - Add A records pointing to GitHub's IPs:
@@ -297,7 +297,7 @@ This template is free to use for your consulting business. Attribution appreciat
 
 Questions? Found a bug? 
 - Open an issue on GitHub
-- Email: hello@stewardshipanalytics.com (update with your real email)
+- Email: realjjemail@gmail.com
 
 ---
 
@@ -311,4 +311,3 @@ Questions? Found a bug?
 6. **Local SEO:** List your service on nonprofit resource directories
 
 Good luck with your launch! 🚀
-

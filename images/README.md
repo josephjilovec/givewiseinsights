@@ -1,4 +1,4 @@
-# Image Assets for StewardShip Analytics
+# Image Assets for GiveWise Insights
 
 This folder should contain the following images. Until you have real images, the site will work with placeholders.
 
@@ -41,7 +41,7 @@ This folder should contain the following images. Until you have real images, the
 ### 3. `og-image.jpg` (Recommended: 1200x630px)
 **Purpose:** Social media preview when link is shared (Open Graph)  
 **Content:** Should include:
-- Your logo/brand name "StewardShip Analytics"
+- Your logo/brand name "GiveWise Insights"
 - Tagline: "Predictive Donor Analytics for Nonprofits"
 - Simple graphic element (data visualization, community icon)
 - Clean, professional design
@@ -94,4 +94,3 @@ Keep file names lowercase with hyphens:
 - ✅ `joseph-profile.jpg`
 - ❌ `Hero Analytics.JPG`
 - ❌ `JosephProfile.jpeg`
-
