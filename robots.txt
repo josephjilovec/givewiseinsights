@@ -1,0 +1,12 @@
+# robots.txt for StewardShip Analytics
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://josephjilovec.github.io/givewiseinsights.github.io/sitemap.xml
+
+# Disallow admin or sensitive pages (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
