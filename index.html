@@ -3,66 +3,178 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Givewise Insights helps organizations make smarter technology decisions across AI, automation, data, digital systems, and operations.">
+  <meta name="description" content="Givewise Insights is an AI transformation and technology advisory firm helping organizations redesign workflows, modernize data, govern AI, and move from pilots to measurable business outcomes.">
   <meta name="author" content="Joseph Jilovec">
-  <meta name="theme-color" content="#0a0f14">
+  <meta name="theme-color" content="#f3efe5">
   <link rel="canonical" href="https://givewiseinsights.vercel.app/">
-  <meta property="og:title" content="Givewise Insights — Technology Strategy & Advisory">
-  <meta property="og:description" content="Clearer technology decisions before you spend, automate, migrate, or scale.">
+  <meta property="og:title" content="Givewise Insights — AI Transformation & Technology Advisory">
+  <meta property="og:description" content="From AI curiosity to governed, useful systems. Strategy, workflow redesign, data readiness, agentic AI, and implementation planning.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://givewiseinsights.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
-  <title>Givewise Insights — Technology Strategy & Advisory</title>
+  <title>Givewise Insights — AI Transformation & Technology Advisory</title>
   <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Givewise Insights","url":"https://givewiseinsights.vercel.app/","description":"Technology strategy and advisory across AI, automation, data, digital systems, and operations.","founder":{"@type":"Person","name":"Joseph Jilovec"},"areaServed":"United States","serviceType":["Technology Strategy","AI and Automation Advisory","Data and Decision Systems","Digital Operations"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Givewise Insights","url":"https://givewiseinsights.vercel.app/","description":"AI transformation and technology advisory for organizations modernizing workflows, data, automation, and governance.","founder":{"@type":"Person","name":"Joseph Jilovec"},"areaServed":"United States","serviceType":["AI Transformation Strategy","Agentic AI Advisory","AI Governance","Workflow Redesign","Data Readiness","Technology Modernization"]}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
   <header class="site-header" id="top">
     <div class="shell nav-shell">
       <a class="brand" href="#top" aria-label="Givewise Insights home">
-        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M11 15.5h18.5c7 0 11.5 4.7 11.5 10.5S36.5 36.5 29.5 36.5H20"/><path d="M20 9v34"/><path d="M9 26h22"/><circle cx="39.5" cy="13.5" r="4.5"/></svg></span>
+        <span class="brand-glyph">G<span>+</span></span>
         <span class="brand-copy"><strong>Givewise</strong><small>Insights</small></span>
       </a>
-      <nav class="desktop-nav" aria-label="Primary navigation"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#fit">Who we help</a><a href="#about">About</a><a href="#insights">Insights</a></nav>
-      <div class="nav-actions"><a class="button button-small" href="#contact">Start a conversation</a><button class="menu-button" id="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button></div>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#services">Capabilities</a><a href="#lab">AI Readiness Lab</a><a href="#approach">Method</a><a href="#signals">Signals</a><a href="#about">Firm</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="nav-utility" id="open-diagnostic" type="button">Run AI diagnostic</button>
+        <a class="button button-small" href="#contact">Start a conversation</a>
+        <button class="menu-button" id="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
     </div>
-    <div class="mobile-menu" id="mobile-menu"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#fit">Who we help</a><a href="#about">About</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div>
+    <div class="mobile-menu" id="mobile-menu"><a href="#services">Capabilities</a><a href="#lab">AI Readiness Lab</a><a href="#approach">Method</a><a href="#signals">Signals</a><a href="#about">Firm</a><a href="#contact">Contact</a></div>
   </header>
+
   <main id="main">
-    <section class="hero shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Technology strategy · AI · data · operations</p>
-        <h1>Make the technology decision <span>before the technology makes it for you.</span></h1>
-        <p class="hero-lede">Givewise Insights helps leaders cut through vendor noise, automation hype, fragmented systems, and unclear data—so the next investment has a reason, a sequence, and a measurable outcome.</p>
-        <div class="hero-actions"><a class="button" href="#contact">Talk through a decision</a><a class="text-link" href="#services">Explore advisory areas <span>↘</span></a></div>
-        <div class="hero-proof"><div><strong>01</strong><span>clarify the decision</span></div><div><strong>02</strong><span>map the system</span></div><div><strong>03</strong><span>build the next move</span></div></div>
+    <section class="hero">
+      <div class="shell hero-shell">
+        <div class="hero-copy reveal">
+          <div class="hero-label"><span class="live-dot"></span> AI transformation & technology advisory</div>
+          <h1>Turn AI pressure into <em>operating advantage.</em></h1>
+          <p>Givewise Insights helps organizations decide where AI belongs, redesign the workflow around it, prepare the data, govern the risk, and move from scattered pilots to systems that actually improve how work gets done.</p>
+          <div class="hero-actions"><button class="button" id="hero-diagnostic" type="button">Run the 60-second AI diagnostic</button><a class="text-link" href="#services">Explore capabilities ↘</a></div>
+          <div class="hero-metrics"><div><strong>AI → OPS</strong><span>strategy through implementation</span></div><div><strong>HUMAN + AGENT</strong><span>workflow redesign</span></div><div><strong>CONTROL BY DESIGN</strong><span>governance before scale</span></div></div>
+        </div>
+
+        <div class="hero-console reveal" aria-label="Interactive AI transformation console">
+          <div class="console-top"><span>GIVEWISE / TRANSFORMATION CONSOLE</span><span class="console-status">LIVE MODEL</span></div>
+          <div class="console-body">
+            <div class="console-rail" role="tablist" aria-label="Transformation views">
+              <button class="console-tab is-active" data-console="workflow" type="button">01 Workflow</button>
+              <button class="console-tab" data-console="data" type="button">02 Data</button>
+              <button class="console-tab" data-console="agents" type="button">03 Agents</button>
+              <button class="console-tab" data-console="governance" type="button">04 Governance</button>
+            </div>
+            <div class="console-view" id="console-view">
+              <div class="console-orbit" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+              <p class="console-kicker">ACTIVE TRANSFORMATION LENS</p>
+              <h2 id="console-title">Workflow redesign</h2>
+              <p id="console-copy">Find the high-friction decisions, handoffs, and repetitive work before choosing an AI tool.</p>
+              <div class="console-bars" id="console-bars"><span style="--w:88%"></span><span style="--w:63%"></span><span style="--w:74%"></span></div>
+              <div class="console-output"><span>Givewise signal</span><strong id="console-signal">Redesign first. Automate second.</strong></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="hero-visual reveal" aria-label="Givewise decision system visualization">
-        <div class="signal-grid" aria-hidden="true"></div>
-        <div class="decision-card primary-card"><span>Decision brief / active</span><h2>What should we modernize first?</h2><div class="decision-rows"><div><i></i><span>Workflow friction</span><strong>High</strong></div><div><i></i><span>Data visibility</span><strong>Medium</strong></div><div><i></i><span>AI readiness</span><strong>Emerging</strong></div></div></div>
-        <div class="decision-card float-card float-a"><small>Signal</small><strong>Reduce tool sprawl</strong><span>Consolidate before adding</span></div>
-        <div class="decision-card float-card float-b"><small>Priority</small><strong>Decision quality</strong><span>Not software volume</span></div>
-        <svg class="hero-lines" viewBox="0 0 640 520" aria-hidden="true"><path d="M140 130 C270 80, 360 150, 485 115"/><path d="M116 345 C265 286, 405 370, 545 310"/><circle cx="140" cy="130" r="4"/><circle cx="485" cy="115" r="4"/><circle cx="116" cy="345" r="4"/><circle cx="545" cy="310" r="4"/></svg>
+      <div class="hero-marquee" aria-hidden="true"><div>AI STRATEGY • AGENTIC WORKFLOWS • DATA READINESS • GOVERNANCE • CLOUD & COST • AUTOMATION • CHANGE DESIGN • AI STRATEGY • AGENTIC WORKFLOWS • DATA READINESS • GOVERNANCE •</div></div>
+    </section>
+
+    <section class="market-strip">
+      <div class="shell market-grid">
+        <div><span>THE MARKET SHIFT</span><strong>IT consulting is becoming AI transformation consulting.</strong></div>
+        <p>The hard part is no longer getting access to models. It is connecting AI to real processes, trustworthy data, controls, people, and measurable business value.</p>
       </div>
     </section>
-    <section class="ticker"><div class="ticker-track"><span>Technology strategy</span><i></i><span>AI & automation</span><i></i><span>Data systems</span><i></i><span>Digital operations</span><i></i><span>Vendor evaluation</span><i></i><span>Workflow redesign</span></div></section>
+
     <section class="section shell" id="services">
-      <div class="section-heading reveal"><div><p class="section-index">01 / Advisory areas</p><h2>Consulting for the decisions that sit between business and technology.</h2></div><p>Not every problem needs a transformation program. Sometimes the valuable work is identifying what not to buy, what to automate first, which data matters, or where a process is quietly costing time.</p></div>
-      <div class="services-grid">
-        <article class="service-card reveal"><div class="service-number">01</div><h3>Technology Strategy</h3><p>Translate business goals into a practical technology roadmap, with priorities, dependencies, tradeoffs, and a sequence leaders can act on.</p><ul><li>Technology roadmaps</li><li>Vendor and platform evaluation</li><li>Build vs. buy decisions</li><li>Modernization sequencing</li></ul></article>
-        <article class="service-card reveal"><div class="service-number">02</div><h3>AI & Automation</h3><p>Identify where AI or automation can remove friction without turning experimentation into uncontrolled tool sprawl.</p><ul><li>AI opportunity mapping</li><li>Workflow automation</li><li>Agent and assistant use cases</li><li>Human-in-the-loop design</li></ul></article>
-        <article class="service-card reveal"><div class="service-number">03</div><h3>Data & Decision Systems</h3><p>Make operational data easier to trust, interpret, and use—especially when teams are buried in disconnected spreadsheets, dashboards, or databases.</p><ul><li>Decision dashboards</li><li>Data workflow review</li><li>Metric definition</li><li>Analytics planning</li></ul></article>
-        <article class="service-card reveal"><div class="service-number">04</div><h3>Digital Operations</h3><p>Review how work moves through the organization, then simplify the systems, handoffs, and tools surrounding it.</p><ul><li>Process mapping</li><li>Tool-stack rationalization</li><li>Operating workflows</li><li>Implementation planning</li></ul></article>
+      <div class="section-heading reveal"><div><p class="section-index">01 / Capabilities</p><h2>Built around the problems companies are actually facing now.</h2></div><p>Givewise sits between executive intent and technical execution—helping teams decide what to change, where AI adds leverage, and what infrastructure or governance has to exist before scale.</p></div>
+
+      <div class="capability-layout">
+        <div class="capability-index reveal" role="tablist" aria-label="Consulting capabilities">
+          <button class="capability-tab is-active" data-capability="strategy" type="button"><span>01</span><strong>AI Transformation Strategy</strong><small>Where AI belongs and why</small></button>
+          <button class="capability-tab" data-capability="agents" type="button"><span>02</span><strong>Agentic AI & Automation</strong><small>Human + digital workflows</small></button>
+          <button class="capability-tab" data-capability="data" type="button"><span>03</span><strong>Data & AI Readiness</strong><small>Context, access, quality</small></button>
+          <button class="capability-tab" data-capability="governance" type="button"><span>04</span><strong>AI Governance & Risk</strong><small>Controls before autonomy</small></button>
+          <button class="capability-tab" data-capability="modernization" type="button"><span>05</span><strong>Technology Modernization</strong><small>Cloud, tools, architecture</small></button>
+        </div>
+
+        <div class="capability-preview reveal" id="capability-preview">
+          <div class="capability-preview-head"><span id="capability-code">CAPABILITY / 01</span><i></i></div>
+          <h3 id="capability-title">AI Transformation Strategy</h3>
+          <p id="capability-copy">Translate business priorities into a practical AI roadmap: use cases, sequencing, operating model, costs, risks, and success metrics.</p>
+          <div class="capability-columns">
+            <div><span>Typical questions</span><ul id="capability-questions"><li>Where should AI enter first?</li><li>Which pilots deserve investment?</li><li>What should remain human-led?</li></ul></div>
+            <div><span>Deliverables</span><ul id="capability-deliverables"><li>AI opportunity map</li><li>90-day transformation roadmap</li><li>Use-case scoring model</li></ul></div>
+          </div>
+          <div class="capability-visual"><div class="matrix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>VALUE × FEASIBILITY × CONTROL</span></div>
+        </div>
       </div>
     </section>
-    <section class="section section-contrast" id="approach"><div class="shell approach-grid"><div class="approach-copy reveal"><p class="section-index">02 / Working model</p><h2>Wise insight is useful only when it changes the next decision.</h2><p>Givewise begins with the decision, not the software. We look at business context, current workflow, data, constraints, and people affected before recommending a platform or implementation path.</p><a class="text-link" href="#contact">Bring us a messy decision <span>↗</span></a></div><div class="steps reveal"><article><span>01</span><div><h3>Clarify</h3><p>Define the decision, desired outcome, constraints, and what evidence would make one option better than another.</p></div></article><article><span>02</span><div><h3>Map</h3><p>Understand the current systems, handoffs, dependencies, data, people, and hidden friction.</p></div></article><article><span>03</span><div><h3>Evaluate</h3><p>Compare options by fit, cost, complexity, reversibility, risk, and operational burden.</p></div></article><article><span>04</span><div><h3>Move</h3><p>Turn the recommendation into a practical sequence with owners, milestones, checkpoints, and a clear next action.</p></div></article></div></div></section>
-    <section class="section shell" id="fit"><div class="section-heading reveal"><div><p class="section-index">03 / Best fit</p><h2>Built for organizations in the gap between “we should modernize” and “what exactly should we do?”</h2></div><p>The work is especially useful when leadership knows technology matters but does not want to hand the decision entirely to a software vendor.</p></div><div class="fit-grid"><article class="fit-card reveal"><span>Growing organizations</span><h3>Too many tools. Not enough system.</h3><p>You have software, data, and capable people—but the pieces evolved separately and now create duplicated effort.</p></article><article class="fit-card reveal"><span>Founders & operators</span><h3>Need a second brain before committing.</h3><p>You are choosing platforms, automation, AI workflows, or technical partners and want a structured view before spending.</p></article><article class="fit-card reveal"><span>Mission-driven teams</span><h3>Limited resources make sequencing matter.</h3><p>You cannot modernize everything at once, so the decision about what comes first is as important as the technology itself.</p></article></div></section>
-    <section class="section founder-section" id="about"><div class="shell founder-grid"><div class="founder-panel reveal"><div class="founder-monogram">JJ</div><div><span>Founder-led advisory</span><h3>Joseph Jilovec</h3><p>Phoenix, Arizona</p></div></div><div class="founder-copy reveal"><p class="section-index">04 / About Givewise</p><h2>A consulting brand shaped by technology, operations, data, psychology, and entrepreneurship.</h2><p>Givewise Insights is designed around a simple idea: organizations often do not need more technology information—they need help deciding what the information means for them. The advisory model combines business context, systems thinking, analytical reasoning, and practical implementation planning.</p><p>The goal is not to imitate a giant consulting firm. It is to provide focused, founder-led analysis for technology and operational decisions that benefit from an outside perspective.</p><div class="founder-links"><a href="https://www.josephjilovec.com/" target="_blank" rel="noreferrer">Founder portfolio ↗</a><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div></div></section>
-    <section class="section shell" id="insights"><div class="section-heading reveal"><div><p class="section-index">05 / Insight themes</p><h2>The questions worth asking before implementation starts.</h2></div><p>A future Givewise Insights library can turn recurring client questions into short decision briefs, field notes, and practical frameworks.</p></div><div class="insights-grid"><article class="insight-card reveal"><span>AI strategy</span><h3>Where should AI actually enter the workflow?</h3><p>Start with repeated decisions, bottlenecks, and information handoffs—not a list of trendy tools.</p><small>Decision brief / coming soon</small></article><article class="insight-card reveal"><span>Operations</span><h3>When does adding software make a broken process worse?</h3><p>Digitizing unnecessary steps can make inefficiency faster instead of making the operation better.</p><small>Field note / coming soon</small></article><article class="insight-card reveal"><span>Data</span><h3>What should an executive dashboard actually answer?</h3><p>A dashboard is useful when it shortens a decision, not when it simply displays more metrics.</p><small>Framework / coming soon</small></article></div></section>
-    <section class="section contact-section" id="contact"><div class="shell contact-grid"><div class="contact-copy reveal"><p class="section-index">06 / Start with the decision</p><h2>Tell us what you are trying to figure out.</h2><p>You do not need a polished scope. A useful first conversation can start with a vendor choice, a workflow problem, an AI idea, a messy data system, or a modernization question that has been sitting unresolved.</p><div class="contact-note"><span>Good starting prompt</span><strong>“We know something needs to change, but we are not sure what the right next move is.”</strong></div></div><form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/ajax/realjjemail@gmail.com" method="POST"><input type="hidden" name="_subject" value="New Givewise Insights consulting inquiry"><input type="hidden" name="_captcha" value="false"><div class="field-row"><label>Name<input required name="name" autocomplete="name"></label><label>Email<input required type="email" name="email" autocomplete="email"></label></div><label>Organization<input name="organization" autocomplete="organization"></label><label>What decision are you working through?<textarea required name="message" rows="6" placeholder="Describe the system, technology, workflow, or decision you want another perspective on."></textarea></label><button class="button" id="submit-button" type="submit">Send inquiry</button><p class="form-status" id="form-status" aria-live="polite"></p></form></div></section>
+
+    <section class="section lab-section" id="lab">
+      <div class="shell">
+        <div class="lab-header reveal"><div><p class="section-index">02 / AI Readiness Lab</p><h2>Where is your organization actually ready?</h2></div><button class="button button-inverse" id="lab-diagnostic" type="button">Launch diagnostic</button></div>
+        <div class="readiness-grid">
+          <article class="readiness-card reveal" data-score="72"><span>Workflow readiness</span><div class="readiness-ring"><strong>72</strong><small>/100</small></div><p>Processes are mapped well enough to identify automation opportunities.</p></article>
+          <article class="readiness-card reveal" data-score="48"><span>Data readiness</span><div class="readiness-ring"><strong>48</strong><small>/100</small></div><p>Information exists, but access, structure, and context may block reliable AI use.</p></article>
+          <article class="readiness-card reveal" data-score="31"><span>Governance readiness</span><div class="readiness-ring"><strong>31</strong><small>/100</small></div><p>Policies alone are not enough; controls, monitoring, and escalation paths are needed.</p></article>
+          <article class="readiness-card reveal" data-score="64"><span>Change readiness</span><div class="readiness-ring"><strong>64</strong><small>/100</small></div><p>Adoption depends on ownership, training, redesigned roles, and visible value.</p></article>
+        </div>
+        <p class="lab-note reveal">Illustrative model. Your actual diagnostic is generated from your answers, not from these example scores.</p>
+      </div>
+    </section>
+
+    <section class="section method-section" id="approach">
+      <div class="shell method-grid">
+        <div class="method-sticky reveal"><p class="section-index">03 / Givewise method</p><h2>Don’t automate the old process. Redesign the work.</h2><p>AI transformation succeeds when strategy, workflow, data, controls, and adoption move together. Givewise uses a five-layer model so technology does not outrun the organization around it.</p></div>
+        <div class="method-stack">
+          <article class="method-card reveal"><span>01</span><div><h3>Frame the outcome</h3><p>Define the business result, decision, or operating constraint before discussing models or vendors.</p></div><small>OUTCOME</small></article>
+          <article class="method-card reveal"><span>02</span><div><h3>Redesign the workflow</h3><p>Separate judgment, coordination, retrieval, generation, and repetitive execution into the right human/AI roles.</p></div><small>WORK</small></article>
+          <article class="method-card reveal"><span>03</span><div><h3>Prepare the information layer</h3><p>Make the data and enterprise knowledge discoverable, contextual, permissioned, and reusable.</p></div><small>DATA</small></article>
+          <article class="method-card reveal"><span>04</span><div><h3>Engineer control</h3><p>Define autonomy limits, approvals, observability, audit trails, security boundaries, and failure handling.</p></div><small>CONTROL</small></article>
+          <article class="method-card reveal"><span>05</span><div><h3>Measure operating value</h3><p>Track time, quality, cost, throughput, adoption, error rates, and business outcomes—not AI activity for its own sake.</p></div><small>VALUE</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="signals">
+      <div class="section-heading reveal"><div><p class="section-index">04 / Market signals</p><h2>What enterprise leaders are trying to solve in 2026.</h2></div><p>The consulting opportunity is shifting from “teach us what AI is” toward “help us redesign, govern, integrate, and scale it.”</p></div>
+      <div class="signals-dashboard reveal">
+        <div class="signal-feature"><span>01 / Scale</span><h3>From pilots to operating systems</h3><p>Organizations increasingly have experiments. They need a portfolio model for deciding which use cases scale, which stop, and which require process redesign.</p><strong>MOVE → portfolio governance</strong></div>
+        <div class="signal-list">
+          <button class="signal-row is-active" type="button" data-signal="governance"><span>02</span><strong>Agent governance</strong><small>Autonomy needs controls</small><i>↗</i></button>
+          <button class="signal-row" type="button" data-signal="data"><span>03</span><strong>AI-ready data</strong><small>Context before intelligence</small><i>↗</i></button>
+          <button class="signal-row" type="button" data-signal="cost"><span>04</span><strong>Cloud & model economics</strong><small>Value before spend</small><i>↗</i></button>
+          <button class="signal-row" type="button" data-signal="security"><span>05</span><strong>AI security</strong><small>Defend new attack surfaces</small><i>↗</i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section firm-section" id="about">
+      <div class="shell firm-grid">
+        <div class="firm-mark reveal"><div class="gi-monogram">GI</div><span>FOUNDER-LED / PHOENIX, AZ</span></div>
+        <div class="firm-copy reveal"><p class="section-index">05 / The firm</p><h2>Technology judgment without the giant-consulting-firm theater.</h2><p>Givewise Insights is a founder-led advisory built for organizations that want a rigorous second perspective on AI, automation, data, and technology modernization. The firm combines systems thinking, analytical reasoning, business context, and practical implementation planning.</p><p>The objective is not to sell a particular platform. It is to help clients understand the decision, make the tradeoffs visible, and build the next move intelligently.</p><div class="firm-links"><a href="https://www.josephjilovec.com/" target="_blank" rel="noreferrer">Founder portfolio ↗</a><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="shell contact-grid">
+        <div class="contact-copy reveal"><p class="section-index">06 / Start here</p><h2>Bring us the AI decision that still feels unclear.</h2><p>It can start with a pilot that is not scaling, a workflow you want to automate, a governance problem, a data bottleneck, a vendor decision, or simply “we know AI matters, but we do not know where to begin.”</p><div class="contact-quick"><button id="contact-diagnostic" type="button">Run diagnostic first</button><span>or</span><a href="mailto:realjjemail@gmail.com">Email directly ↗</a></div></div>
+        <form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/ajax/realjjemail@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Givewise Insights AI consulting inquiry"><input type="hidden" name="_captcha" value="false">
+          <div class="field-row"><label>Name<input required name="name" autocomplete="name"></label><label>Email<input required type="email" name="email" autocomplete="email"></label></div>
+          <label>Organization<input name="organization" autocomplete="organization"></label>
+          <label>What are you trying to change?<select name="focus"><option>AI strategy / roadmap</option><option>Agentic AI / automation</option><option>Data readiness</option><option>AI governance / risk</option><option>Technology modernization</option><option>Not sure yet</option></select></label>
+          <label>Context<textarea required name="message" rows="6" placeholder="What is happening now, what outcome do you want, and what is making the decision difficult?"></textarea></label>
+          <button class="button" id="submit-button" type="submit">Send consulting inquiry</button><p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M11 15.5h18.5c7 0 11.5 4.7 11.5 10.5S36.5 36.5 29.5 36.5H20"/><path d="M20 9v34"/><path d="M9 26h22"/><circle cx="39.5" cy="13.5" r="4.5"/></svg></span><span class="brand-copy"><strong>Givewise</strong><small>Insights</small></span></a><p>Technology strategy for clearer decisions, simpler systems, and better next moves.</p></div><div><span class="footer-label">Advisory</span><a href="#services">Technology strategy</a><a href="#services">AI & automation</a><a href="#services">Data systems</a><a href="#services">Digital operations</a></div><div><span class="footer-label">Company</span><a href="#approach">Approach</a><a href="#about">About</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div><div><span class="footer-label">Connect</span><a href="https://www.josephjilovec.com/" target="_blank" rel="noreferrer">Joseph Jilovec ↗</a><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" rel="noreferrer">LinkedIn ↗</a><span>Phoenix, Arizona</span></div></div><div class="shell footer-bottom"><span>© 2026 Givewise Insights</span><span>Founder-led technology strategy and advisory.</span></div></footer>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand footer-brand" href="#top"><span class="brand-glyph">G<span>+</span></span><span class="brand-copy"><strong>Givewise</strong><small>Insights</small></span></a><p>AI transformation and technology advisory for organizations moving from experimentation to operating value.</p></div><div><span class="footer-label">Capabilities</span><a href="#services">AI strategy</a><a href="#services">Agentic AI</a><a href="#services">Data readiness</a><a href="#services">Governance</a></div><div><span class="footer-label">Explore</span><a href="#lab">AI Readiness Lab</a><a href="#approach">Method</a><a href="#signals">Market signals</a><a href="#about">Firm</a></div><div><span class="footer-label">Connect</span><a href="#contact">Contact</a><a href="https://www.josephjilovec.com/" target="_blank" rel="noreferrer">Joseph Jilovec ↗</a><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" rel="noreferrer">LinkedIn ↗</a><span>Phoenix, Arizona</span></div></div><div class="shell footer-bottom"><span>© 2026 Givewise Insights</span><span>AI Transformation & Technology Advisory</span></div></footer>
+
+  <div class="diagnostic-backdrop" id="diagnostic-backdrop" hidden>
+    <section class="diagnostic-modal" role="dialog" aria-modal="true" aria-labelledby="diagnostic-title">
+      <div class="diagnostic-head"><div><span>GIVEWISE / AI READINESS DIAGNOSTIC</span><h2 id="diagnostic-title">Where should your AI work start?</h2></div><button id="close-diagnostic" type="button" aria-label="Close diagnostic">×</button></div>
+      <div class="diagnostic-progress"><i id="diagnostic-progress-bar"></i></div>
+      <div class="diagnostic-stage" id="diagnostic-stage"></div>
+    </section>
+  </div>
+
   <script src="script.js" defer></script>
 </body>
 </html>
