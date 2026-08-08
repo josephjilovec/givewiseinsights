@@ -1,419 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GiveWise Insights helps nonprofits, churches, and community organizations maximize fundraising ROI through predictive donor analytics and data-driven insights. Free donor data audit available.">
-    <meta name="keywords" content="donor analytics for nonprofits, fundraising ROI optimization, predictive donor insights churches, nonprofit donor forecasting, church fundraising analytics, donor lifetime value, lapsed donor recovery">
-    <meta name="author" content="Joseph Jilovec">
-    
-    <!-- Open Graph Tags for Social Sharing -->
-    <meta property="og:title" content="GiveWise Insights - Maximize Every Gift Through Data">
-    <meta property="og:description" content="Predictive analytics for nonprofits, churches, and community organizations. Boost fundraising ROI by 20-50%+ with data-driven donor insights.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://josephjilovec.github.io/givewiseinsights.github.io">
-    <meta property="og:image" content="https://josephjilovec.github.io/givewiseinsights.github.io/images/og-image.jpg">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GiveWise Insights - Maximize Every Gift">
-    <meta name="twitter:description" content="Predictive donor analytics for nonprofits and faith-based organizations">
-    
-    <title>GiveWise Insights - Maximize Every Gift Through Predictive Donor Insights</title>
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Schema.org Markup -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "GiveWise Insights",
-      "description": "Predictive donor analytics and fundraising optimization for nonprofits, churches, and community organizations",
-      "founder": {
-        "@type": "Person",
-        "name": "Joseph Jilovec"
-      },
-      "areaServed": "United States",
-      "serviceType": ["Donor Analytics", "Fundraising Optimization", "Predictive Modeling", "Donor Lifetime Value Analysis"],
-      "url": "https://josephjilovec.github.io/givewiseinsights.github.io"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Givewise Insights helps organizations make smarter technology decisions across AI, automation, data, digital systems, and operations.">
+  <meta name="author" content="Joseph Jilovec">
+  <meta name="theme-color" content="#0a0f14">
+  <link rel="canonical" href="https://givewiseinsights.vercel.app/">
+  <meta property="og:title" content="Givewise Insights — Technology Strategy & Advisory">
+  <meta property="og:description" content="Clearer technology decisions before you spend, automate, migrate, or scale.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://givewiseinsights.vercel.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Givewise Insights — Technology Strategy & Advisory</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Givewise Insights","url":"https://givewiseinsights.vercel.app/","description":"Technology strategy and advisory across AI, automation, data, digital systems, and operations.","founder":{"@type":"Person","name":"Joseph Jilovec"},"areaServed":"United States","serviceType":["Technology Strategy","AI and Automation Advisory","Data and Decision Systems","Digital Operations"]}</script>
 </head>
-<body class="antialiased">
-
-    <!-- Header & Navigation -->
-    <header class="header-nav">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold logo-text">GiveWise Insights</h1>
-            <nav class="space-x-4 hidden md:flex">
-                <a href="#how-it-works" class="nav-link">How It Works</a>
-                <a href="#benefits" class="nav-link">Benefits</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#contact" class="btn-primary-small">Free Audit</a>
-            </nav>
-            <!-- Mobile menu button -->
-            <button id="mobile-menu-btn" class="md:hidden text-gray-600 hover:text-primary-600">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
-        </div>
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
-            <nav class="flex flex-col px-4 py-4 space-y-3">
-                <a href="#how-it-works" class="nav-link">How It Works</a>
-                <a href="#benefits" class="nav-link">Benefits</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h1 class="hero-headline">
-                        Maximize Every Gift: <span class="text-primary-600">Predictive Analytics</span> for Greater Mission Impact
-                    </h1>
-                    <p class="hero-subheadline">
-                        Turn your donor data into actionable insights. Identify high-value supporters, predict giving patterns, and boost fundraising ROI by 20-50%+ with data-driven stewardship.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 mt-8">
-                        <a href="#contact" class="btn-primary">Get Free Donor Audit</a>
-                        <a href="#how-it-works" class="btn-secondary">Learn How It Works</a>
-                    </div>
-                    <p class="trust-badge">
-                        ✓ Trusted by churches, nonprofits & community organizations<br>
-                        ✓ Zero-risk assessment · Secure data handling · Mission-focused results
-                    </p>
-                </div>
-                <div class="hero-image-placeholder">
-                    <!-- Replace with actual image: diverse community, hands together, or data visualization -->
-                    <img src="images/hero-analytics.jpg" alt="Nonprofit donor analytics dashboard showing predictive insights" class="rounded-lg shadow-2xl">
-                </div>
-            </div>
-        </div>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell nav-shell">
+      <a class="brand" href="#top" aria-label="Givewise Insights home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M11 15.5h18.5c7 0 11.5 4.7 11.5 10.5S36.5 36.5 29.5 36.5H20"/><path d="M20 9v34"/><path d="M9 26h22"/><circle cx="39.5" cy="13.5" r="4.5"/></svg></span>
+        <span class="brand-copy"><strong>Givewise</strong><small>Insights</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#fit">Who we help</a><a href="#about">About</a><a href="#insights">Insights</a></nav>
+      <div class="nav-actions"><a class="button button-small" href="#contact">Start a conversation</a><button class="menu-button" id="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button></div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#fit">Who we help</a><a href="#about">About</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div>
+  </header>
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Technology strategy · AI · data · operations</p>
+        <h1>Make the technology decision <span>before the technology makes it for you.</span></h1>
+        <p class="hero-lede">Givewise Insights helps leaders cut through vendor noise, automation hype, fragmented systems, and unclear data—so the next investment has a reason, a sequence, and a measurable outcome.</p>
+        <div class="hero-actions"><a class="button" href="#contact">Talk through a decision</a><a class="text-link" href="#services">Explore advisory areas <span>↘</span></a></div>
+        <div class="hero-proof"><div><strong>01</strong><span>clarify the decision</span></div><div><strong>02</strong><span>map the system</span></div><div><strong>03</strong><span>build the next move</span></div></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Givewise decision system visualization">
+        <div class="signal-grid" aria-hidden="true"></div>
+        <div class="decision-card primary-card"><span>Decision brief / active</span><h2>What should we modernize first?</h2><div class="decision-rows"><div><i></i><span>Workflow friction</span><strong>High</strong></div><div><i></i><span>Data visibility</span><strong>Medium</strong></div><div><i></i><span>AI readiness</span><strong>Emerging</strong></div></div></div>
+        <div class="decision-card float-card float-a"><small>Signal</small><strong>Reduce tool sprawl</strong><span>Consolidate before adding</span></div>
+        <div class="decision-card float-card float-b"><small>Priority</small><strong>Decision quality</strong><span>Not software volume</span></div>
+        <svg class="hero-lines" viewBox="0 0 640 520" aria-hidden="true"><path d="M140 130 C270 80, 360 150, 485 115"/><path d="M116 345 C265 286, 405 370, 545 310"/><circle cx="140" cy="130" r="4"/><circle cx="485" cy="115" r="4"/><circle cx="116" cy="345" r="4"/><circle cx="545" cy="310" r="4"/></svg>
+      </div>
     </section>
-
-    <!-- Pain Points Section -->
-    <section id="pain-points" class="section-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="section-title">Is Your Organization Facing These Challenges?</h2>
-                <p class="section-subtitle">You're not alone. Many nonprofits struggle with donor retention and inefficient fundraising strategies.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="pain-card">
-                    <div class="pain-icon">📉</div>
-                    <h3 class="pain-title">Declining Donations</h3>
-                    <p class="pain-description">Donor fatigue and economic pressures mean fewer gifts. You need to do more with less and identify your most committed supporters.</p>
-                </div>
-                
-                <div class="pain-card">
-                    <div class="pain-icon">❓</div>
-                    <h3 class="pain-title">Guesswork in Campaigns</h3>
-                    <p class="pain-description">Which donors will give again? Who's at risk of leaving? Without data, you're flying blind and wasting precious resources on ineffective outreach.</p>
-                </div>
-                
-                <div class="pain-card">
-                    <div class="pain-icon">💸</div>
-                    <h3 class="pain-title">Wasted Sacred Funds</h3>
-                    <p class="pain-description">Every dollar counts toward your mission. Inefficient fundraising means less impact for those you serve and poor stewardship of gifts entrusted to you.</p>
-                </div>
-            </div>
-        </div>
+    <section class="ticker"><div class="ticker-track"><span>Technology strategy</span><i></i><span>AI & automation</span><i></i><span>Data systems</span><i></i><span>Digital operations</span><i></i><span>Vendor evaluation</span><i></i><span>Workflow redesign</span></div></section>
+    <section class="section shell" id="services">
+      <div class="section-heading reveal"><div><p class="section-index">01 / Advisory areas</p><h2>Consulting for the decisions that sit between business and technology.</h2></div><p>Not every problem needs a transformation program. Sometimes the valuable work is identifying what not to buy, what to automate first, which data matters, or where a process is quietly costing time.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><div class="service-number">01</div><h3>Technology Strategy</h3><p>Translate business goals into a practical technology roadmap, with priorities, dependencies, tradeoffs, and a sequence leaders can act on.</p><ul><li>Technology roadmaps</li><li>Vendor and platform evaluation</li><li>Build vs. buy decisions</li><li>Modernization sequencing</li></ul></article>
+        <article class="service-card reveal"><div class="service-number">02</div><h3>AI & Automation</h3><p>Identify where AI or automation can remove friction without turning experimentation into uncontrolled tool sprawl.</p><ul><li>AI opportunity mapping</li><li>Workflow automation</li><li>Agent and assistant use cases</li><li>Human-in-the-loop design</li></ul></article>
+        <article class="service-card reveal"><div class="service-number">03</div><h3>Data & Decision Systems</h3><p>Make operational data easier to trust, interpret, and use—especially when teams are buried in disconnected spreadsheets, dashboards, or databases.</p><ul><li>Decision dashboards</li><li>Data workflow review</li><li>Metric definition</li><li>Analytics planning</li></ul></article>
+        <article class="service-card reveal"><div class="service-number">04</div><h3>Digital Operations</h3><p>Review how work moves through the organization, then simplify the systems, handoffs, and tools surrounding it.</p><ul><li>Process mapping</li><li>Tool-stack rationalization</li><li>Operating workflows</li><li>Implementation planning</li></ul></article>
+      </div>
     </section>
-
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="section-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="section-title">How GiveWise Insights Works</h2>
-                <p class="section-subtitle">A simple, secure process that transforms your donor data into strategic fundraising insights</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div class="process-step">
-                    <div class="process-number">1</div>
-                    <h3 class="process-title">Upload Data Securely</h3>
-                    <p class="process-description">Share your donor data (Excel, CRM exports, or database extracts) through our HIPAA-compliant secure portal. Your data stays confidential.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="process-number">2</div>
-                    <h3 class="process-title">Deep Analysis</h3>
-                    <p class="process-description">Our proprietary Python/TensorFlow models analyze giving patterns, donor lifecycles, campaign effectiveness, and churn risk factors.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="process-number">3</div>
-                    <h3 class="process-title">Custom Insights Report</h3>
-                    <p class="process-description">Receive a detailed report with actionable recommendations: top opportunities to recover lapsed donors, high-value prospect identification, and ROI forecasts.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="process-number">4</div>
-                    <h3 class="process-title">Ongoing Optimization</h3>
-                    <p class="process-description">Optional: Monthly retainer for continuous monitoring, live dashboards, campaign forecasting, and strategic fundraising guidance.</p>
-                </div>
-            </div>
-            
-            <div class="text-center mt-12">
-                <a href="#contact" class="btn-primary">Start With Free Audit</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits/ROI Section -->
-    <section id="benefits" class="section-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="section-title">Proven Results That Amplify Your Mission</h2>
-                <p class="section-subtitle">Data-driven fundraising isn't just about numbers—it's about maximizing impact for every dollar entrusted to your care</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎯</div>
-                    <h3 class="benefit-title">Identify High-Value Donors</h3>
-                    <p class="benefit-description">Predictive models reveal which supporters have the highest lifetime value, so you can focus cultivation efforts where they matter most.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">🔄</div>
-                    <h3 class="benefit-title">Recover Lapsed Donors</h3>
-                    <p class="benefit-description">Our churn analysis pinpoints at-risk donors early and suggests personalized re-engagement strategies—often recovering 15-25% of lapsed givers.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
-                    <h3 class="benefit-title">Boost Recurring Giving 30%+</h3>
-                    <p class="benefit-description">Identify one-time donors most likely to become monthly sustainers, creating predictable revenue streams for long-term planning.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">💡</div>
-                    <h3 class="benefit-title">Optimize Campaign ROI</h3>
-                    <p class="benefit-description">Know which appeals work best for which segments. Stop wasting money on ineffective campaigns and double down on what drives results.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
-                    <h3 class="benefit-title">Real-Time Dashboards</h3>
-                    <p class="benefit-description">See fundraising metrics at a glance: monthly recurring revenue, donor retention rates, campaign performance, and predictive forecasts.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">🤝</div>
-                    <h3 class="benefit-title">Better Donor Stewardship</h3>
-                    <p class="benefit-description">Understand donor motivations and giving capacity to build deeper relationships and demonstrate faithful stewardship of their generosity.</p>
-                </div>
-            </div>
-            
-            <div class="roi-highlight">
-                <h3 class="roi-title">Typical Client Results</h3>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-                    <div class="roi-stat">
-                        <div class="roi-number">20-50%</div>
-                        <div class="roi-label">Increase in Fundraising ROI</div>
-                    </div>
-                    <div class="roi-stat">
-                        <div class="roi-number">15-25%</div>
-                        <div class="roi-label">Lapsed Donor Recovery Rate</div>
-                    </div>
-                    <div class="roi-stat">
-                        <div class="roi-number">30%+</div>
-                        <div class="roi-label">Growth in Recurring Donors</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials/Case Studies Section -->
-    <section id="testimonials" class="section-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="section-title">What Organizations Are Saying</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="testimonial-card">
-                    <div class="testimonial-quote">"GiveWise Insights helped us identify $47,000 in recoverable lapsed donors we'd written off. The insights were clear, actionable, and mission-aligned. Our board was amazed."</div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-name">Rev. Sarah M.</div>
-                        <div class="testimonial-org">Community Church, 850 members</div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-quote">"We were drowning in spreadsheets with no clear direction. The predictive report showed us exactly where to focus our limited fundraising hours—and we saw a 32% increase in Q4 giving."</div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-name">Michael T.</div>
-                        <div class="testimonial-org">Executive Director, Youth Development Nonprofit</div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-quote">"As a small organization, we needed sophisticated analytics without hiring a data team. The monthly dashboard gives our lodge leadership real-time visibility into membership dues and fundraising trends."</div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-name">James W.</div>
-                        <div class="testimonial-org">Worshipful Master, Masonic Lodge</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section-light">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-            <div class="text-center mb-12">
-                <h2 class="section-title">About GiveWise Insights</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
-                <div class="lg:col-span-1">
-                    <img src="images/joseph-profile.jpg" alt="GiveWise Insights - Predictive donor analytics for nonprofits" class="about-image">
-                </div>
-                
-                <div class="lg:col-span-2">
-                    <div class="about-content">
-                        <p class="about-text">Nonprofits and faith-based organizations face a real problem: they're sitting on years of donor data but don't have the tools or expertise to turn it into actionable fundraising strategy. While for-profit companies use predictive analytics to grow revenue, mission-driven organizations are left guessing which donors will give again, who's about to lapse, and where to focus limited fundraising resources.</p>
-                        
-                        <p class="about-text">GiveWise Insights exists to solve this gap. We built our platform specifically for organizations that need enterprise-level donor analytics without the enterprise price tag. Our models analyze giving patterns, identify high-value prospects, predict churn risk, and surface opportunities to recover lapsed donors—all using the data you already have.</p>
-                        
-                        <p class="about-text">The nonprofit sector loses millions each year to inefficient fundraising. Churches see declining tithes but don't know which members are at risk. Community organizations struggle to convert one-time donors into recurring supporters. We help solve these problems by giving you the same predictive insights that major fundraising operations use, delivered in reports and dashboards you can actually understand and act on.</p>
-                        
-                        <p class="about-text">Whether you're dealing with donor fatigue, declining retention rates, or simply want to make smarter decisions about where to invest your fundraising budget, GiveWise Insights gives you the data-driven clarity to maximize every gift and expand your mission impact.</p>
-                        
-                        <div class="flex gap-4 mt-6">
-                            <a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" class="text-primary-600 hover:text-primary-700 font-medium">LinkedIn →</a>
-                            <a href="https://github.com/JosephJilovec" target="_blank" class="text-primary-600 hover:text-primary-700 font-medium">GitHub →</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA/Contact Form Section -->
-    <section id="contact" class="section-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-            <div class="text-center mb-12">
-                <h2 class="section-title">Start With a Free Donor Data Audit</h2>
-                <p class="section-subtitle">No obligation. No credit card. Just actionable insights that reveal hidden opportunities in your donor base.</p>
-            </div>
-            
-            <form id="contact-form" class="contact-form" action="https://formsubmit.co/ajax/realjjemail@gmail.com" method="POST">
-                <!-- FormSubmit Configuration -->
-                <input type="hidden" name="_subject" value="New GiveWise Insights Inquiry">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <label for="name" class="form-label">Your Name *</label>
-                        <input type="text" id="name" name="name" required class="form-input">
-                    </div>
-                    
-                    <div>
-                        <label for="organization" class="form-label">Organization Name *</label>
-                        <input type="text" id="organization" name="organization" required class="form-input">
-                    </div>
-                </div>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                    <div>
-                        <label for="email" class="form-label">Email Address *</label>
-                        <input type="email" id="email" name="email" required class="form-input">
-                    </div>
-                    
-                    <div>
-                        <label for="org-type" class="form-label">Organization Type</label>
-                        <select id="org-type" name="org-type" class="form-input">
-                            <option value="">Select one...</option>
-                            <option value="church">Church / Religious Organization</option>
-                            <option value="nonprofit">Nonprofit / Charity</option>
-                            <option value="masonic">Masonic Lodge</option>
-                            <option value="service-club">Service Club (Rotary, Lions, etc.)</option>
-                            <option value="school">School / Educational Institution</option>
-                            <option value="community">Community Organization</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                </div>
-                
-                <div class="mt-6">
-                    <label for="message" class="form-label">Tell us about your fundraising goals or challenges</label>
-                    <textarea id="message" name="message" rows="5" class="form-input" placeholder="e.g., We've seen a 20% drop in recurring donors over the past year and need help identifying at-risk supporters..."></textarea>
-                </div>
-                
-                <div class="mt-8 text-center">
-                    <button type="submit" id="submit-btn" class="btn-primary">Request Free Audit</button>
-                    
-                    <p id="form-loading" class="form-message hidden">
-                        <svg class="animate-spin inline-block h-5 w-5 text-primary-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                        </svg>
-                        Sending...
-                    </p>
-                    <p id="form-success" class="form-message hidden text-green-600">Thank you! I'll be in touch within 24 hours to discuss your free audit.</p>
-                    <p id="form-error" class="form-message hidden text-red-600">There was an error submitting the form. Please email me directly at: realjjemail@gmail.com</p>
-                </div>
-                
-                <p class="form-privacy">Your information is confidential and will never be shared. We respect your organization's privacy.</p>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="footer-heading">GiveWise Insights</h3>
-                    <p class="footer-text">Predictive donor analytics for nonprofits, churches, and community organizations committed to maximizing mission impact.</p>
-                </div>
-                
-                <div>
-                    <h4 class="footer-heading">Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#how-it-works">How It Works</a></li>
-                        <li><a href="#benefits">Benefits</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="footer-heading">Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://github.com/JosephJilovec" target="_blank">GitHub</a></li>
-                        <li><a href="mailto:realjjemail@gmail.com">Email</a></li>
-                    </ul>
-                    <p class="footer-text mt-4">📍 Serving organizations nationwide</p>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2024 Joseph Jilovec. All rights reserved.</p>
-                <p class="footer-privacy">Privacy Policy: We never share donor data. All analysis is confidential and HIPAA-compliant.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    <section class="section section-contrast" id="approach"><div class="shell approach-grid"><div class="approach-copy reveal"><p class="section-index">02 / Working model</p><h2>Wise insight is useful only when it changes the next decision.</h2><p>Givewise begins with the decision, not the software. We look at business context, current workflow, data, constraints, and people affected before recommending a platform or implementation path.</p><a class="text-link" href="#contact">Bring us a messy decision <span>↗</span></a></div><div class="steps reveal"><article><span>01</span><div><h3>Clarify</h3><p>Define the decision, desired outcome, constraints, and what evidence would make one option better than another.</p></div></article><article><span>02</span><div><h3>Map</h3><p>Understand the current systems, handoffs, dependencies, data, people, and hidden friction.</p></div></article><article><span>03</span><div><h3>Evaluate</h3><p>Compare options by fit, cost, complexity, reversibility, risk, and operational burden.</p></div></article><article><span>04</span><div><h3>Move</h3><p>Turn the recommendation into a practical sequence with owners, milestones, checkpoints, and a clear next action.</p></div></article></div></div></section>
+    <section class="section shell" id="fit"><div class="section-heading reveal"><div><p class="section-index">03 / Best fit</p><h2>Built for organizations in the gap between “we should modernize” and “what exactly should we do?”</h2></div><p>The work is especially useful when leadership knows technology matters but does not want to hand the decision entirely to a software vendor.</p></div><div class="fit-grid"><article class="fit-card reveal"><span>Growing organizations</span><h3>Too many tools. Not enough system.</h3><p>You have software, data, and capable people—but the pieces evolved separately and now create duplicated effort.</p></article><article class="fit-card reveal"><span>Founders & operators</span><h3>Need a second brain before committing.</h3><p>You are choosing platforms, automation, AI workflows, or technical partners and want a structured view before spending.</p></article><article class="fit-card reveal"><span>Mission-driven teams</span><h3>Limited resources make sequencing matter.</h3><p>You cannot modernize everything at once, so the decision about what comes first is as important as the technology itself.</p></article></div></section>
+    <section class="section founder-section" id="about"><div class="shell founder-grid"><div class="founder-panel reveal"><div class="founder-monogram">JJ</div><div><span>Founder-led advisory</span><h3>Joseph Jilovec</h3><p>Phoenix, Arizona</p></div></div><div class="founder-copy reveal"><p class="section-index">04 / About Givewise</p><h2>A consulting brand shaped by technology, operations, data, psychology, and entrepreneurship.</h2><p>Givewise Insights is designed around a simple idea: organizations often do not need more technology information—they need help deciding what the information means for them. The advisory model combines business context, systems thinking, analytical reasoning, and practical implementation planning.</p><p>The goal is not to imitate a giant consulting firm. It is to provide focused, founder-led analysis for technology and operational decisions that benefit from an outside perspective.</p><div class="founder-links"><a href="https://www.josephjilovec.com/" target="_blank" rel="noreferrer">Founder portfolio ↗</a><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div></div></section>
+    <section class="section shell" id="insights"><div class="section-heading reveal"><div><p class="section-index">05 / Insight themes</p><h2>The questions worth asking before implementation starts.</h2></div><p>A future Givewise Insights library can turn recurring client questions into short decision briefs, field notes, and practical frameworks.</p></div><div class="insights-grid"><article class="insight-card reveal"><span>AI strategy</span><h3>Where should AI actually enter the workflow?</h3><p>Start with repeated decisions, bottlenecks, and information handoffs—not a list of trendy tools.</p><small>Decision brief / coming soon</small></article><article class="insight-card reveal"><span>Operations</span><h3>When does adding software make a broken process worse?</h3><p>Digitizing unnecessary steps can make inefficiency faster instead of making the operation better.</p><small>Field note / coming soon</small></article><article class="insight-card reveal"><span>Data</span><h3>What should an executive dashboard actually answer?</h3><p>A dashboard is useful when it shortens a decision, not when it simply displays more metrics.</p><small>Framework / coming soon</small></article></div></section>
+    <section class="section contact-section" id="contact"><div class="shell contact-grid"><div class="contact-copy reveal"><p class="section-index">06 / Start with the decision</p><h2>Tell us what you are trying to figure out.</h2><p>You do not need a polished scope. A useful first conversation can start with a vendor choice, a workflow problem, an AI idea, a messy data system, or a modernization question that has been sitting unresolved.</p><div class="contact-note"><span>Good starting prompt</span><strong>“We know something needs to change, but we are not sure what the right next move is.”</strong></div></div><form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/ajax/realjjemail@gmail.com" method="POST"><input type="hidden" name="_subject" value="New Givewise Insights consulting inquiry"><input type="hidden" name="_captcha" value="false"><div class="field-row"><label>Name<input required name="name" autocomplete="name"></label><label>Email<input required type="email" name="email" autocomplete="email"></label></div><label>Organization<input name="organization" autocomplete="organization"></label><label>What decision are you working through?<textarea required name="message" rows="6" placeholder="Describe the system, technology, workflow, or decision you want another perspective on."></textarea></label><button class="button" id="submit-button" type="submit">Send inquiry</button><p class="form-status" id="form-status" aria-live="polite"></p></form></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M11 15.5h18.5c7 0 11.5 4.7 11.5 10.5S36.5 36.5 29.5 36.5H20"/><path d="M20 9v34"/><path d="M9 26h22"/><circle cx="39.5" cy="13.5" r="4.5"/></svg></span><span class="brand-copy"><strong>Givewise</strong><small>Insights</small></span></a><p>Technology strategy for clearer decisions, simpler systems, and better next moves.</p></div><div><span class="footer-label">Advisory</span><a href="#services">Technology strategy</a><a href="#services">AI & automation</a><a href="#services">Data systems</a><a href="#services">Digital operations</a></div><div><span class="footer-label">Company</span><a href="#approach">Approach</a><a href="#about">About</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div><div><span class="footer-label">Connect</span><a href="https://www.josephjilovec.com/" target="_blank" rel="noreferrer">Joseph Jilovec ↗</a><a href="https://www.linkedin.com/in/jilovecjoseph/" target="_blank" rel="noreferrer">LinkedIn ↗</a><span>Phoenix, Arizona</span></div></div><div class="shell footer-bottom"><span>© 2026 Givewise Insights</span><span>Founder-led technology strategy and advisory.</span></div></footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
