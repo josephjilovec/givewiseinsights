@@ -80,42 +80,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const formSuccessBox = document.getElementById('form-success-box');
 
   if (inquiryForm && formSuccessBox) {
-    inquiryForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const submitBtn = inquiryForm.querySelector('button[type="submit"]');
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Transmitting Scope...';
-      }
-
-      // Collect form fields
-      const formData = {
-        name: inquiryForm.querySelector('[name="name"]')?.value || '',
-        company: inquiryForm.querySelector('[name="company"]')?.value || '',
-        email: inquiryForm.querySelector('[name="email"]')?.value || '',
-        scope: inquiryForm.querySelector('[name="scope"]')?.value || '',
-        tier: inquiryForm.querySelector('[name="tier"]')?.value || 'Discovery'
-      };
-
-      // Formulate mailto fallback link for zero-friction direct transmission
-      const subject = encodeURIComponent(`Executive AI Scope Inquiry — ${formData.company || formData.name}`);
-      const body = encodeURIComponent(
-        `Executive Inquiry for GiveWise Insights:\n\n` +
-        `Name: ${formData.name}\n` +
-        `Company: ${formData.company}\n` +
-        `Email: ${formData.email}\n` +
-        `Target Engagement: ${formData.tier}\n\n` +
-        `Operational Workflow Context:\n${formData.scope}\n\n` +
-        `Sent via givewiseinsights.josephjilovec.com`
-      );
-
-      setTimeout(() => {
-        inquiryForm.style.display = 'none';
+    inquiryForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!form.reportValidity()) return;
+      const button = form.querySelector('button[type="submit"]');
+      const originalLabel = button?.textContent;
+      const status = form.querySelector('[data-delivery-status]');
+      if (button) { button.disabled = true; button.textContent = 'Sending…'; }
+      if (status) status.textContent = 'Sending your general business inquiry…';
+      try {
+        const data = new FormData(form);
+        const inquiry = { name: String(data.get('name') || ''), email: String(data.get('email') || ''), message: String(data.get('scope') || ''), organization: String(data.get('company') || ''), engagement: String(data.get('tier') || '') };
+        const response = await fetch('https://summithillholdings.com/api/inquiry?venture=givewise-insights', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(inquiry) });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok || result.success !== true) throw new Error(result.message || 'Your message was not sent. Please keep a copy and try again later.');
+        form.style.display = 'none';
         formSuccessBox.style.display = 'block';
-        // Open user's default email client pre-populated as a direct channel
-        window.location.href = `mailto:contact@givewiseinsights.com?subject=${subject}&body=${body}`;
-      }, 600);
+      } catch (error) {
+        if (status) status.textContent = error.message || 'Your message was not sent. Please keep a copy and try again later.';
+      } finally {
+        if (button) { button.disabled = false; button.textContent = originalLabel; }
+      }
     });
   }
 

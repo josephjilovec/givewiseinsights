@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://givewiseinsights.josephjilovec.com/sitemap.xml
+Sitemap: https://givewiseinsights.summithillholdings.com/sitemap.xml
