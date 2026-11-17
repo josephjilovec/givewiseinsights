@@ -34,3 +34,9 @@ Software/telecom cost review is secondary, with any shared-savings terms separat
 Buildless HTML/CSS with a small sample print helper. Native links and FAQ disclosures work without JavaScript. `sample-ai-plan.html` remains a clearly labeled fictional professional-services example. Original SVG assets and existing Vercel response headers are preserved. Metadata uses the branded canonical domain.
 
 Private strategy, economics, source evaluation, qualification, build/support planning, and savings-measurement documents are maintained in the private venture repository. They are not imported into this public site.
+
+## Public credibility update — November 17, 2026
+
+Marketing, the sample brief, and JSON-LD use the GiveWise Insights brand. Legal contracting identity belongs in formal onboarding documents. Public contact: givewiseinsights@summithillholdings.com.
+
+Describe Python/SQL preparation, schema validation, QA, and automation as scoped services. Do not reintroduce unsupported universal 24/7 support, zero-retention, ownership, confidence-score, competitor-price, or performance claims. Actual data access, tools, acceptance criteria, support coverage, and rights must be verified and agreed per project. Do not imply federal-system authorization or request live study data in an initial message.
